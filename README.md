@@ -1,1 +1,96 @@
 # registration-form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T & P Registration</title>
+    
+    <link rel="stylesheet" href="assgn.css">s
+</head>
+<body>
+    <h1><Strong><CENter>RAMDEOBABA UNIVERSITY </CENter></Strong></h1>
+    <h2>Enter your details here</h2>
+    <form action="" method="get" accept-charset="UTF-8" autocomplete="">
+        <label for="FIRST NAME">FIRST NAME</label><br>
+        <input type="text" placeholder="FIRST NAME" name="" id="FIRST NAME"><br>
+        <label for="LAST NAME">LAST NAME</label><br>
+        <input type="text" placeholder="LAST NAME" name="" id="LAST NAME"><br>
+        <button type="submit">SUBMIT</button><br>
+        <label for="DATE OF BIRTH">DATE OF BIRTH</label><br>
+        <input type="date" name="" id="DATE OF BIRTH"><br>
+        <label for="DEPARTMENTS">DEPARTMENTS</label><br>
+       <select name="DEPARTMENTS" id="DEPARTMENTS">
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="ELECTRICAL ">ELECTRICAL</option>
+        <option value="MECHANICAL">MECHANICAL</option>
+        <option value="CIVIL">CIVIL</option>
+        <option value="ROBOTICS">ROBOTICS</option>
+        <option value="CHEMICAL">CHEMICAL</option>
+        <label for="GENDER">GENDERE</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+<h3>Semester-wise Marks</h3>
+        <label for="sem1">Semester 1:</label>
+        <input type="number" id="sem1" name="sem1" min="0" max="100">
+        <br><br>
+
+        <label for="sem2">Semester 2:</label>
+        <input type="number" id="sem2" name="sem2" min="0" max="100">
+        <br><br>
+
+        <label for="sem3">Semester 3:</label>
+        <input type="number" id="sem3" name="sem3" min="0" max="100">
+        <br><br>
+
+        <label for="sem4">Semester 4:</label>
+        <input type="number" id="sem4" name="sem4" min="0" max="100">
+        <br><br>
+
+        <label for="sem5">Semester 5:</label>
+        <input type="number" id="sem5" name="sem5" min="0" max="100">
+        <br><br>
+
+        <label for="sem6">Semester 6:</label>
+        <input type="number" id="sem6" name="sem6" min="0" max="100">
+        <br><br>
+
+        <label for="sem7">Semester 7:</label>
+        <input type="number" id="sem7" name="sem7" min="0" max="100">
+        <br><br>
+
+        <label for="sem8">Semester 8:</label>
+        <input type="number" id="sem8" name="sem8" min="0" max="100">
+        <br><br>
+
+        <!-- Resume Upload -->
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        <br><br>
+
+        <!-- Additional Information -->
+        <label for="info">Any Other Information:</label><br>
+        <textarea id="info" name="info" rows="4" cols="50" placeholder="Enter additional details here..."></textarea>
+        <br><br>
+
+        <!-- Terms & Conditions -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept the terms and conditions</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+     </select>
+    </form>
+    
+</body>
+</html>
