@@ -1,0 +1,73 @@
+/* Simple beginner-style CSS */
+
+/* Page background and text */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkred;
+    text-align: center;
+}
+
+/* Form box */
+form {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Radio buttons and checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Buttons */
+button,
+input[type="submit"],
+input[type="reset"] {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: navy;
+}
+
+/* Just to center the form better on page */
+form {
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+}
